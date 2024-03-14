@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+.enclose{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    /* margin: 0 auto; */
+}
+.progress-bar {
+  width: 60%;
+  height: 30px;
+  background-color: #f0f0f0;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  color: black;
+  /* margin-bottom: 10px; */
+}
+.spn{
+    display: flex;
+    justify-content: center;
+}
+.spn  span{
+    color: black;
+    margin: 0 auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.1s ease-in-out;
+  position: relative;
+}
+
+.progress-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+}
+
+.progress-complete {
+  color: #000;
+}
+
